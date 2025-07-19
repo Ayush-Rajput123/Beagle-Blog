@@ -40,4 +40,24 @@ body {
     margin-top: 15px;
     padding-left: 20px;
   }
-  
+  @media screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .top, .image-section, .trivia-section {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  ol {
+    padding-left: 20px;
+  }
+}
